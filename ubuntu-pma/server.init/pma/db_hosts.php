@@ -1,0 +1,41 @@
+<?php
+
+$i++;
+$cfg['Servers'][$i]['verbose'] = 'Database Server 1';
+$cfg['Servers'][$i]['host'] = '192.168.33.11';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = '';
+$cfg['Servers'][$i]['port'] = '3306';
+//$cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
+$i++;
+$cfg['Servers'][$i]['verbose'] = 'Database Server 2';
+$cfg['Servers'][$i]['host'] = '192.168.33.12';
+$cfg['Servers'][$i]['port'] = '3306';
+// $cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
+
+$i++;
+$cfg['Servers'][$i]['verbose'] = 'Database Server 3';
+$cfg['Servers'][$i]['host'] = 'my1';
+$cfg['Servers'][$i]['port'] = '3306';
+// $cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
+$i++;
+$cfg['Servers'][$i]['verbose'] = 'Database Server 4';
+$cfg['Servers'][$i]['host'] = 'my2';
+$cfg['Servers'][$i]['port'] = '3306';
+// $cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
