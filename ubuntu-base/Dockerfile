@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER nikolay.bilokonenko@onix-systems.com
+LABEL maintainer="devops@onix-systems.com"
 
 RUN mkdir server.init
 
